@@ -1,0 +1,47 @@
+/*
+Theme Name: Magic Fields Two
+Theme URI: http://magicfields.org
+Description: The Magic Fields Team
+Author: Magic Fields Theme
+Author URI: http://magicfields.org
+Version: 1.0
+Tags: Magic-Fields
+
+License: GPL
+License URI:
+
+*/
+@font-face {
+  font-family: Chunkfive;
+  src: url(fonts/Chunkfive.otf);
+}
+body {
+  margin:0px;
+  background-color:#bfbfbf;
+}
+
+#content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  height: 44px;
+  background: #000;
+  border-bottom:#3b3a3a;
+}
+
+.menu ul {
+  margin: 0px;
+}
+
+
+.menu ul li {
+  font-family: Chunkfive, Helvetica;
+  color:#e79e00;
+  font-size:15px;
+  list-style-type: none;
+  float:left;
+  margin: 15px 14px;
+}
