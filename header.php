@@ -13,13 +13,16 @@
     <div id="content">
       <div id="header">
         <div class="menu">
+          <span class="wp-flag"></span>
           <ul>
             <li>Home</li>
             <li>About</li>
             <li>Blog</li>
             <li>Download</li>
             <li>Support</li>
+            <li class="menu-right">FAQ</li>
           </ul>
-        </div> 
+          <span class="wp-flag"></span>
+        </div>
       </div>
     </div>
