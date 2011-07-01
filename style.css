@@ -50,6 +50,10 @@ body {
   margin: 15px 14px;
 }
 
+p {
+  font-family: Helvetica;
+}
+
 .menu ul li.menu-right {
   float:right;
 }
@@ -62,3 +66,68 @@ body {
   display:block;
   float:left;
 }
+
+/** Landing Page **/
+#curtain {
+  background: #000 url(images/curtain.png) no-repeat 0 0;
+  width:100%;
+  height:437px;
+  position:relative;
+}
+
+#curtain .description p { 
+  position: absolute;
+  top:145px;
+  left:235px;
+  color: #D08F02;
+  font-size:24px;
+  display:block;
+  width:551px;
+  text-align:center;
+} 
+
+#curtain-separator {
+  background-color: #191919;
+  width:100%;
+  height:30px;
+}
+
+.preview, .hat {
+  position:absolute;
+  display:block;
+}
+
+.hat {
+  background: url(images/hat.png) no-repeat 0 0;
+  width: 199px;
+  height: 228px;
+  top: 313px;
+  left:397px;
+}
+
+.preview{
+  background: url(images/preview.png) no-repeat 0 0;
+  width: 250px;
+  height: 181px;
+  top:263px;
+  left:375px;
+}
+
+
+#mf-info {
+  background: url(images/bg_mf_info.gif) repeat 0 0;
+  min-height: 100px;
+  width:100%;
+}
+
+/** / Landing Page **/
+
+
+/** Footer **/
+#footer {
+  height:125px;
+  width: 100%;
+  background-color:#191919;
+  border-top:3px solid #C58907; 
+}
+/** / Footer **/

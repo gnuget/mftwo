@@ -10,7 +10,7 @@
     <?php print wp_head();?>
   </head>
   <body>
-    <div id="content">
+    <div id="content"> <!-- Content -->
       <div id="header">
         <div class="menu">
           <span class="wp-flag"></span>
@@ -25,4 +25,3 @@
           <span class="wp-flag"></span>
         </div>
       </div>
-    </div>
