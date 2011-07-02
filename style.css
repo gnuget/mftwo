@@ -15,9 +15,21 @@ License URI:
   font-family: Chunkfive;
   src: url(fonts/Chunkfive.otf);
 }
+
 body {
   margin:0px;
   background-color:#bfbfbf;
+}
+
+
+p,span {
+  font-family: Helvetica;
+  color:#343434;
+}
+
+
+.mf-clear {
+  clear:both;
 }
 
 #content {
@@ -50,10 +62,6 @@ body {
   margin: 15px 14px;
 }
 
-p {
-  font-family: Helvetica;
-}
-
 .menu ul li.menu-right {
   float:right;
 }
@@ -67,12 +75,20 @@ p {
   float:left;
 }
 
+.button { 
+  background-color: #FA8223;
+  color: #FFF;
+  padding: 10px 15px; 
+  text-decoration:none;
+}
+
 /** Landing Page **/
 #curtain {
   background: #000 url(images/curtain.png) no-repeat 0 0;
   width:100%;
   height:437px;
   position:relative;
+  border-bottom: 30px solid #191919;
 }
 
 #curtain .description p { 
@@ -86,10 +102,10 @@ p {
   text-align:center;
 } 
 
-#curtain-separator {
-  background-color: #191919;
-  width:100%;
-  height:30px;
+#curtain-download{ 
+  position: absolute;
+  top: 235px;
+  left: 393px;
 }
 
 .preview, .hat {
@@ -118,7 +134,110 @@ p {
   background: url(images/bg_mf_info.gif) repeat 0 0;
   min-height: 100px;
   width:100%;
+  padding-top: 70px;
 }
+
+#mf-info h1 {
+  color: #AA0000;
+  font-size:30px;
+}
+
+#mf-info h2 {
+  color: #AA0000;
+  font-size:20px;
+}
+
+#mf-info h3 {
+  font-size:18px;
+}
+
+#mf-info .mf-title{
+  width:100%;
+}
+
+#mf-info .mf-title span,
+#mf-info .mf-title h1 {
+  margin: 0 0 0 60px;
+}
+
+#mf-info .mf-title .social {
+  float:right;
+  margin: 0 40px 5px 0;
+}
+
+.twitter,.facebook {
+  float:left;
+  width: 21px;
+  height: 21px;
+  margin: 0 5px;
+  text-decoration:none;
+} 
+
+.twitter {
+  background: url(images/tiny_twitter.png);
+}
+
+.facebook {
+  background: url(images/tiny_facebook.png);
+} 
+
+#mf-about,
+#mf-features {
+  float:left;
+  margin-left:30px;
+}
+
+#mf-features {
+  width: 590px;
+  margin-bottom:10px;
+}
+
+#mf-about {
+  width: 340px;
+  border:1px solid #F1F1E7;
+}
+
+.features-column {
+  width: 295px; 
+  float:left;
+}
+
+.feature-picture {
+  width: 128px;
+  height: 128px;
+  float:left;
+}
+
+.feature-item span {
+  display:block;
+  padding-top:10px;
+}
+
+.mf-features-separator {
+  width:100%;
+  height: 2px;
+  background: url(images/separator.png);
+}
+
+.mf-blog {
+  padding:10px;
+}
+
+.blog-title {
+  float:right;
+  margin-right: 10px;
+}
+
+.mf-blog p {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+#feature-download{
+  width: 50%;
+  margin: 40px auto 20px auto; 
+  
+} 
 
 /** / Landing Page **/
 
