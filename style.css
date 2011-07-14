@@ -27,6 +27,9 @@ p,span {
   color:#343434;
 }
 
+a {
+  text-decoration: none;
+}
 
 .mf-clear {
   clear:both;
@@ -81,6 +84,13 @@ p,span {
   padding: 10px 15px; 
   text-decoration:none;
 }
+
+/** Encontrar un nuevo color para el hover mas bonito **/
+.button:hover{
+  background-color: #EA8223;
+}
+
+
 
 /** Landing Page **/
 #curtain {
@@ -223,6 +233,14 @@ p,span {
   padding:10px;
 }
 
+.mf-blog a{ 
+  color:#000;
+}
+
+.mf-blog a:hover{
+  text-decoration:underline;
+}
+
 .blog-title {
   float:right;
   margin-right: 10px;
@@ -250,3 +268,10 @@ p,span {
   border-top:3px solid #C58907; 
 }
 /** / Footer **/
+
+/** CSS3 **/
+.borderradius .button {
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}

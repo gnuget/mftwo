@@ -90,14 +90,20 @@
     <div id="mf-about">
       <div class="blog-title"><h2>Blog</h2></div>
       <div class="mf-blog">
-        <div class="mf-blog-post">
-          <h3>MF + WPML</h3>
-          <p>A few weeks ago we started working in a plugin that will enable Magic Fields to work sealessly with WPML, since this plugin needed version 1.5 and it has allready been released, we have the pleasure to make it available to everyone.</p>
-        </div>
-        <div class="mf-blog-post">
-          <h3>MF + WPML</h3>
-          <p>A few weeks ago we started working in a plugin that will enable Magic Fields to work sealessly with WPML, since this plugin needed version 1.5 and it has allready been released, we have the pleasure to make it available to everyone.</p>
-        </div>
+        <?php 
+          query_posts('posts_per_page=2'); 
+          if( have_posts() ):
+             while( have_posts()): the_post(); 
+          ?>  
+            <div class="mf-blog-post">
+              <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+              <?php the_excerpt();?>
+            </div> 
+         
+         <?php
+              endwhile;
+          endif;
+        ?>
       </div>
       <div class="mf-authors">
       </div>

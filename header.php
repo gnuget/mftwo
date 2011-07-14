@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>  
+
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.76812.js"></script>
     <?php print wp_head();?>
   </head>
   <body>
