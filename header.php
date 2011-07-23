@@ -17,9 +17,9 @@
         <div class="menu">
           <span class="wp-flag"></span>
           <ul>
-            <li>Home</li>
+            <li><a href="/">Home</a></li>
             <li>About</li>
-            <li>Blog</li>
+            <li><a href="/blog">Blog</a></li>
             <li>Download</li>
             <li>Support</li>
             <li class="menu-right">FAQ</li>

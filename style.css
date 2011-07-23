@@ -16,15 +16,48 @@ License URI:
   src: url(fonts/Chunkfive.otf);
 }
 
+a {
+  color:#4A0101;
+}
+
+a:hover {
+  color:#E79E00;
+}
+
 body {
   margin:0px;
   background-color:#bfbfbf;
+  font-family: helvetica;
+}
+
+h1 {
+  color: #AA0000;
+  font-size:30px;
+}
+
+h2 {
+  color: #AA0000;
+  font-size:20px;
+  margin: 5px 0;
+}
+
+h2 a {
+  color: #AA0000;
+  font-size:20px;
+  text-decoration:none;
+}
+
+h3 {
+  font-size:18px;
 }
 
 
-p,span {
+
+p,span,li {
   font-family: Helvetica;
   color:#343434;
+  font-size:13px;
+  margin: 10px 0;
 }
 
 a {
@@ -38,6 +71,7 @@ a {
 #content {
   width: 1024px;
   margin: 0 auto;
+  background: url("images/bg_mf_info.gif") repeat scroll 0 0 transparent;
 }
 
 .menu {
@@ -63,6 +97,10 @@ a {
   list-style-type: none;
   float:left;
   margin: 15px 14px;
+}
+
+.menu ul li a {
+  color:#e79e00;
 }
 
 .menu ul li.menu-right {
@@ -139,7 +177,6 @@ a {
   left:375px;
 }
 
-
 #mf-info {
   background: url(images/bg_mf_info.gif) repeat 0 0;
   min-height: 100px;
@@ -147,10 +184,6 @@ a {
   padding-top: 70px;
 }
 
-#mf-info h1 {
-  color: #AA0000;
-  font-size:30px;
-}
 
 #mf-info h2 {
   color: #AA0000;
@@ -269,9 +302,62 @@ a {
 }
 /** / Footer **/
 
+/** Blog **/
+#blog-page {
+  width: 642px;
+  float:left;
+  margin-left:20px;
+}
+
+.blog-entry {
+  border: 1px solid #ccc;
+  padding:15px;
+  margin-bottom: 10px;
+  background-color:#fff;
+} 
+
+/* Sidebar */
+#sidebar {
+  width: 321px;
+  margin-left: 682px;
+  border:1px solid #ccc;
+  margin-top:10px;
+  background: #fff;
+}
+
+#sidebar ul {
+  width: 85%;
+  padding-left:0px;
+  display:block;
+  margin: 0 auto;
+}
+
+
+#sidebar li {
+  list-style-type:none;
+} 
+
+.entry-postmeta {
+  margin: 10px auto;
+  border:1px solid #ccc;
+  padding: 5px 0 5px 10px;
+}
+
+.entry-postmeta span {
+  margin: 0 10px;
+}
+
 /** CSS3 **/
 .borderradius .button {
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     border-radius:10px;
+}
+
+.borderradius #sidebar,
+.borderradius .entry-postmeta,
+.borderradius .blog-entry {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
