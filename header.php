@@ -18,10 +18,12 @@
           <span class="wp-flag"></span>
           <ul>
             <li><a href="/">Home</a></li>
-            <li>About</li>
+            <li><a href="/about">About</a></li>
             <li><a href="/blog">Blog</a></li>
-            <li>Download</li>
-            <li>Support</li>
+            <?php if( is_user_logged_in() ) :?>
+              <li><a href="/downloads">Downloads</a></li>
+            <?php endif;?>
+            <li><a href="/forum">Support</a></li>
             <li class="menu-right">FAQ</li>
           </ul>
           <span class="wp-flag"></span>

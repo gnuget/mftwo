@@ -347,6 +347,18 @@ a {
   margin: 0 10px;
 }
 
+.comments {
+  background: #fff;
+  border:1px solid #ccc;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+/* foro */
+#blog-page.forum {
+  width: 984px;
+}
+
 /** CSS3 **/
 .borderradius .button {
     -moz-border-radius:10px;
@@ -354,6 +366,7 @@ a {
     border-radius:10px;
 }
 
+.borderradius .comments,
 .borderradius #sidebar,
 .borderradius .entry-postmeta,
 .borderradius .blog-entry {
