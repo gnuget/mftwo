@@ -32,7 +32,7 @@
             <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            Magic Fields v2 was rewritten to use them to improve that was included Wordpress 3.0, which allowed us to optimize and to improve the functioning of Magic Fields
           </span>
           <div class="mf-clear"></div>
         </div>
@@ -41,14 +41,14 @@
             <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            Magic Fields has 15 types of Custom Fields, including image, multiline, checkbox, audio, file, color picker, date picker, drop down, etc.
           </span>
           <div class="mf-clear"></div>
         </div>
-        <div class="feature-item">
-          <h2>Este es un cuadro de texto</h2>
+        <div class="feature-item feature-item-bottom">
+          <h2>It works with Wordpress 3.x</h2>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            Magic Fields is constantly tested the latest version of Wordpress to make sure everything works fine
           </span>
           <div class="mf-clear"></div>
         </div>
@@ -60,7 +60,7 @@
             <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            Magic Fields v2 allows creates of easy form and simple post types and custom taxonomies, you can easily set options and labels for Post Types and Custom Taxonomies
           </span>
           <div class="mf-clear"></div>
         </div>
@@ -69,15 +69,15 @@
             <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            One of the best characteristics of Magic Fields is that you can duplicate groups and Custom Fields, only you need to mark the option to duplicate and I list
           </span>
           <div class="mf-clear"></div>
         </div>
 
-        <div class="feature-item">
-          <h2>Este es un cuadro de texto</h2>
+        <div class="feature-item feature-item-bottom">
+          <h2>Browser Compatibility</h2>
           <span>
-            Our theme control panel and installation guids get you started in no time
+            Fully supported browsers: Google Chrome, Firefox 3.5+, Internet Explorer 7.0+, Safari 3.0+
           </span>
           <div class="mf-clear"></div>
         </div>

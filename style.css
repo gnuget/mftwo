@@ -256,6 +256,10 @@ a {
   padding-top:10px;
 }
 
+.feature-item-bottom{
+  padding-top: 12px;
+}
+
 .mf-features-separator {
   width:100%;
   height: 2px;
@@ -285,7 +289,7 @@ a {
 }
 
 #feature-download{
-  width: 50%;
+  width: 40%;
   margin: 40px auto 20px auto; 
   
 } 
