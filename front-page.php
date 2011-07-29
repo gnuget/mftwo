@@ -44,7 +44,7 @@
       <div class="features-column">
         <div class="feature-item">
           <div class="feature-picture">
-            <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
+            <img src="<?php print $theme_url.'/images/code.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
             Magic Fields v2 was rewritten to use them to improve that was included Wordpress 3.0, which allowed us to optimize and to improve the functioning of Magic Fields
@@ -53,7 +53,7 @@
         </div>
         <div class="feature-item">
           <div class="feature-picture">
-            <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
+            <img src="<?php print $theme_url.'/images/cf.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
             Magic Fields has 15 types of Custom Fields, including image, multiline, checkbox, audio, file, color picker, date picker, drop down, etc.
@@ -69,10 +69,10 @@
         </div>
       </div>
 
-      <div class="features-column">
+      <div class="features-column features-column-right">
         <div class="feature-item">
           <div class="feature-picture">
-            <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
+            <img src="<?php print $theme_url.'/images/pt.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
             Magic Fields v2 allows creates of easy form and simple post types and custom taxonomies, you can easily set options and labels for Post Types and Custom Taxonomies
@@ -81,7 +81,7 @@
         </div>
         <div class="feature-item">
           <div class="feature-picture">
-            <img src="<?php print $theme_url.'/images/feature-image.png' ?>" alt="feature" title="feature" />
+            <img src="<?php print $theme_url.'/images/gr.png' ?>" alt="feature" title="feature" />
           </div>
           <span>
             One of the best characteristics of Magic Fields is that you can duplicate groups and Custom Fields, only you need to mark the option to duplicate and I list
