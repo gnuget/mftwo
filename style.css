@@ -132,7 +132,7 @@ a {
 
 /** Landing Page **/
 #curtain {
-  background: #000 url(images/curtain.png) no-repeat 0 0;
+  background: #000 url(images/curtain2.png) no-repeat 0 0;
   width:100%;
   height:437px;
   position:relative;
@@ -166,7 +166,7 @@ a {
   width: 199px;
   height: 228px;
   top: 313px;
-  left:397px;
+  left:409px;
 }
 
 .preview{
@@ -174,7 +174,7 @@ a {
   width: 250px;
   height: 181px;
   top:263px;
-  left:375px;
+  left:383px;
 }
 
 #mf-info {
@@ -256,7 +256,7 @@ a {
   padding-top:10px;
 }
 
-.feature-item-bottom{
+.feature-item-bottom {
   padding-top: 12px;
 }
 

@@ -1,7 +1,7 @@
 <?php get_header();?>
   <div id="curtain">
     <div class="description">
-      <p>Magic Fields let you create post types and custom fields in a very easy way</p>
+      
     </div>
     <div id="curtain-download">
       <a href="javascript:void(0);" class="button download">Download MagicFields Now</a>
