@@ -181,7 +181,7 @@ a {
   background: url(images/bg_mf_info.gif) repeat 0 0;
   min-height: 100px;
   width:100%;
-  padding-top: 45px;
+  padding-top: 75px;
 }
 
 
@@ -199,11 +199,24 @@ a {
 }
 
 #mf-info .mf-title span,
+#mf-info .mf-title p,
 #mf-info .mf-title h1 {
   margin: 0 0 0 60px;
 }
 
-#mf-info .mf-title .social {
+#mf-info .mf-title p {
+  width:500px;
+  padding-bottom:10px;
+  font-size:12px;
+  padding-top:5px;
+}
+
+#mf-info .mf-title span{
+  font-style:italic;
+  font-size:17px;
+}
+
+ .social {
   float:right;
   margin: 0 40px 5px 0;
 }
@@ -233,7 +246,7 @@ a {
 #mf-features {
   width: 600px;
   margin-bottom:10px;
-  padding-top: 17px;
+  padding-top: 3px;
 }
 
 #mf-about {
@@ -260,6 +273,8 @@ a {
 .feature-item span {
   display:block;
   padding-top:10px;
+  font-size: 12px;
+  line-height: 140%;
 }
 
 .feature-item-bottom {
@@ -275,6 +290,14 @@ a {
 
 .mf-blog {
   padding:10px;
+}
+
+.mf-blog-donate {
+  padding: 31px 0 0 10px;
+}
+
+.mf-blog-donate form{
+  padding-left:25%;
 }
 
 .mf-blog a{ 
@@ -306,10 +329,12 @@ a {
 
 /** Footer **/
 #footer {
-  height:125px;
+  height:40px;
   width: 100%;
   background-color:#191919;
   border-top:3px solid #C58907; 
+  margin-top: 8px;
+  font-size: 12px;
 }
 /** / Footer **/
 
@@ -385,3 +410,16 @@ a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+
+.alignright{ float:right; }
+.alignleft{ float:left; }
+
+.navigation a { font-size:12px;}
+
+#footer, #footer a { color: #E79E00}
+.footerside { padding: 14px 0 0 15px; }
+.footerlink { padding: 14px 15px 0 0; }
+.footerlink a { padding-left:10px}
+
+img.team-image{ float:left; padding-right: 10px; }
+span.bold{ font-weight:bold;}

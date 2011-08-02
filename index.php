@@ -1,3 +1,8 @@
-<?php get_header();?>
-  <h1>Hola Mundo</h1>
+<?php get_header(); ?>
+  <?php
+    //loop 
+    get_template_part('loop','single');
+  ?> 
+<?php get_sidebar();?>
+<div class="mf-clear"></div>
 <?php get_footer();?>

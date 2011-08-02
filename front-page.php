@@ -4,16 +4,17 @@
       
     </div>
     <div id="curtain-download">
-      <a href="javascript:void(0);" class="button download">Download MagicFields Now</a>
+      <a href="/downloads" class="button download">Download MagicFields Now</a>
     </div>
     <span class="preview">&nbsp;</span>
     <span class="hat"></span>
   </div>
   <div id="mf-info">
     <div class="mf-title">
-      <h1>Hakuna matata</h1>
-      <span>Some benefits of Magic Fields</span>
-
+      
+      
+      <h1>A Magical Wordpress Plugin</h1>
+      
       <div class="social">
         <!-- <a  class="twitter" href="http://twitter.com/magicfields" title="Follow us on twitter" alt="Follow us on twitter">&nbsp;</a>
         <a  class="facebook" href="http://facebook.com" title="facebook" alt="facebook">&nbsp;</a> -->
@@ -34,6 +35,11 @@
 
         <div class="mf-clear"></div>
       </div>
+      
+      <p>Magic Fields is a WordPress CMS plugin  who is focused in improved the way about how are create the custom fields in wordpress. With magic Fields you will be able to choose between 15 types of custom fields</p>
+      
+      <span>Some benefits of Magic Fields</span>
+      
     </div> 
     <?php 
       //theme url 
@@ -99,7 +105,7 @@
       </div>
       <div class="mf-clear"></div>
       <div id="feature-download">
-        <a href="javascript:void(0);" class="button download">Download MagicFields Now</a>
+        <a href="/downloads" class="button download">Download MagicFields Now</a>
       </div>
     </div>
     <div id="mf-about">
@@ -121,8 +127,21 @@
         ?>
       </div>
       <div class="mf-authors">
+        <div class="blog-title"><h2>Support Us</h2></div>
+          <div class="mf-blog-donate">
+            <p>If you are a happy user of magic fields, <span class="bold">please consider make a donation</span>, with your support and donations we can continue working on this plugin.
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+              ">
+              <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+              
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
     <div class="mf-clear"></div>
   </div>
 <?php get_footer();?>

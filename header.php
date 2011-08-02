@@ -19,12 +19,10 @@
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <?php if( is_user_logged_in() ) :?>
+            <li><a href="/category/blog/">Blog</a></li>
               <li><a href="/downloads">Downloads</a></li>
-            <?php endif;?>
-            <li><a href="/forum">Support</a></li>
-            <li class="menu-right">FAQ</li>
+            <li><a href="/support">Support</a></li>
+            <li class="menu-right"><a href="http://wiki.magicfields.org/doku.php">Wiki</a></li>
           </ul>
           <span class="wp-flag"></span>
         </div>
